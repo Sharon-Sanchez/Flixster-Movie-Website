@@ -10,13 +10,17 @@ async function getMovies(){
     const movies = await fetch(apiURL);
     const moviesData = await movies.json();
     const results = moviesData.results;
-    results.forEach(element => displayMovies(element)); 
+    
+    displayMovies(results);
 }
 
 
 function displayMovies(movies) {
-    console.log(movies)
-    moviesDisplay.innerHTML+=`<img src="https://image.tmdb.org/t/p/w500${movies.poster_path} "alt=${movies.title}/>;`;
+    movies.forEach(element => {
+        moviesDisplay.innerHTML+=`<img src="https://image.tmdb.org/t/p/w500${element.poster_path} "alt=${movies.title}/>;`;
+    });
+    
+    
 }
 
 
