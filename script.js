@@ -29,13 +29,14 @@ function displayMovies(movies) {
     movies.forEach(element => {
         moviesDisplay.innerHTML +=`
 
-        <div id="poster"> 
-            <img src="https://image.tmdb.org/t/p/w500${element.poster_path} "alt=${movies.title}/>;
-        </div>
-        <div id="movieInfo">
-            <h4 id>${element.title}<h4> 
-            <h4 id>${element.vote_average}<h4>
-            
+        <div class="display"> 
+            <div class="poster"> 
+                <img src="https://image.tmdb.org/t/p/w500${element.poster_path} "alt=${movies.title}/>
+            </div>
+            <div class="movieInfo">
+                <h4 id>${element.title}<h4> 
+                <h4 id>${element.vote_average}<h4>
+            </div>
         </div>
     
         `;
