@@ -32,7 +32,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
 
-![Website Displayed of only movie posters and their info](https://imgur.com/Gqim97b)
+`<iframe src="https://giphy.com/embed/grRx0U1qdjDnwfxRah" width="480" height="242" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/grRx0U1qdjDnwfxRah">via GIPHY</a></p>`
 
 ### Reflection
 
