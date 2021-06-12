@@ -12,11 +12,11 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 #### REQUIRED FEATURES
 
-- [ ] User can view a list of current movies from The Movie Database API as a grid view.
-- [ ] For each movie displayed, user can see the following details: `Title`, `Poster Image`, `Votes`.
+- [X] User can view a list of current movies from The Movie Database API as a grid view.
+- [X] For each movie displayed, user can see the following details: `Title`, `Poster Image`, `Votes`.
 - [ ] User can load more current movies by clicking a button at the bottom of the list. The page should not refresh; movies should simply be added to the bottom.
 - [ ] Allow users to search for movies and display them in a grid view. Users should be able to clear results and view previous current movies displayed.
-- [ ] Website accounts for basic HTML/CSS accessibility features.
+- [X] Website accounts for basic HTML/CSS accessibility features.
 - [ ] Website should be responsive.
 
 #### STRETCH FEATURES
@@ -31,7 +31,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
-`ADD_EMBEDDED_CODE_HERE`
+`http://g.recordit.co/1RT6gNPN8E.gif`
 
 ### Reflection
 
