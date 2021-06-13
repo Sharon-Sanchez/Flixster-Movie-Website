@@ -118,6 +118,6 @@ html,img,form {
 #show-more-btn:active, #show-more-results-btn:active, #submitBtn:active{
     background-color: #540b0e;
     box-shadow: 0 5px #666;
-    transform: translateY(5px);
+    transform: translateY(3px);
 }
 
