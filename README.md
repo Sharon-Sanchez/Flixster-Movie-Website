@@ -1,4 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
 
 ## Week 1 Assignment: Flixster
 
@@ -6,7 +5,7 @@ Submitted by: Sharon Sanchez
 
 Estimated time spent: 10+ (open lab + outside hours) hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): 
 
 ### Application Features
 
@@ -24,32 +23,39 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 - [ ] Deploy website using GitHub Pages. 
 - [ ] Allow user to view more details about a movie within a popup.
 - [ ] Improve the user experience through CSS & animation.
-- [ ] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
+- [ ] Allow movie video trailers to be played using [embedded YouTube](https://media.giphy.com/media/grRx0U1qdjDnwfxRah/giphy.gif)
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
 
+<<<<<<< HEAD
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `http://g.recordit.co/1RT6gNPN8E.gif`
 `ADD_EMBEDDED_CODE_HERE`
+=======
+
+
+![](https://media.giphy.com/media/grRx0U1qdjDnwfxRah/giphy.gif)
+>>>>>>> cfcec58c4ad22949ab9fd4796b0cf10726aae3bc
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+It did help but it was too fast for me to be able to learn quickly unfortunately. I didn't fully know where to go next when it came to doing the assignments. I underestemiated the time it would take to do it and how much I struggled with the material. I struggled most with the submission forms to get the images to pop out. I console logged the data and it did come up on the console just not on the website. I did the search button and when clicking submit, the datas comes up. 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+I would definitely finish the submit buttons to get more images to appear. I would have loved to implement the feature of the posters scrolling sideways when you hover over them to focus on one at a time. I also would have love to expand the library to popular movies for example and not just now playing movies.  I would have added more css aspects in making my website prettier but I prioritized that my code was functional, clean, and readable. I devoted most of my time trying to learn and understand the material. 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+I think the timing I started the project did not go well. I wanted to learn and practice first to understand so I get dive into the project. But, the practice I did and asking for help allowed me to have a decent website as a start. I hope to improve more and go for it at the beginning of the week so I can have time. I also hope with more help and outside resources I can get better. 
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+https://developers.themoviedb.org/3/search/search-movies
+https://developers.themoviedb.org/3/movies/get-now-playing
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+I want to give a shoutout to both my mentors Matt (Codepath) and Michelle (Workday) because they really lifted my spirits towards the end. I was a bit sad I couldn't have a fully functional website and that I couldn't keep up with my fellow peers. However, I tried my best and spent hours reading and learning the material and I am proud. I want to take this as a learning lesson on time and to just go for it. It is enjoyable and they made me believe that I am capable and I have room to improve. So, I hope to improve in the next projects.  
