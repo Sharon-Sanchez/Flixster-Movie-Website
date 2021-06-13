@@ -5,10 +5,9 @@
 
 .Title{
     position: relative;
-    margin-left: 42%;
+    margin-left: 43%;
     display: flex;
     align-items: center;
-    
 }
 h1 {
     font-size: 50px;
@@ -16,24 +15,41 @@ h1 {
 
 img{
     border-radius: 8px;
-    width: 380px;
+    width: 350px;
      
 }
 
+body {
+    text-align: center;
+    width: 100%;
+    height:100%;
 
+   
+}
 
+html,img {
+    width: 100%;
+    height: 100%;
+}
 
 #movie-area{
     display: grid;
     width: 100%;
     grid-template-columns: repeat(4,1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 25px;
+    row-gap: 20px;
     
 }
 
 
 
+.hidden{
+    display: none;
+}
 
+.hiddenBtn{
+    display: none;
+}
 
 
 

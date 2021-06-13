@@ -9,29 +9,48 @@
   
 </head>
 <body>
+    <!-- Title of the Website with logo -->
     <div class="Title">
         <div>
+            
             <img class="popcorn-icon"src="https://i.ibb.co/nwJYnK2/bestofficialicon.png" alt="popcornicon">
+          
+            
         </div>
         <div>
             <h1>Flixster</h1>
-        </div>
-        
+        </div>    
     </div>
 
-    <form>
-        <label>Movie Search</label>
-        <input type="text" name="movieSearch" />
-        <button>Submit!</button>
-    </form>
+    <!-- The submit form for users to type in the movie they are looking for and submit -->
+    <div class="Movie-Search-Form">
+        <form id="search-form">
+            <input id="search-input" type="text" name="movieSearch" placeholder="Enter a movie name" />
+            <button type="submit" class="search-btn">Search Movie!</button>
+        </form>
 
-    <h3>Now Playing</h3>
+    </div>
+
+
+    
+
+
+    <!--Now Playing Title on top of the webpage which shows movies in tbeaters-->
+    <h2 id="now-playing">Now Playing</h2>
+    <h2 id="search-results" class="hidden">Results Found</h2>
+
    
-    
+    <!-- Area to display the movie details like the posters, title, and votes  -->
     <div id="movie-area"></div>
-    
+   
+    <!--The see more results button when the user submits a movie search-->
+    <button id="show-more-results-btn" type="button" class="hiddenBtn">More Results!</button>
 
-    <button>See More</button>
+    <!-- See More button and area to add extra movies-->
+    <div class="show-more-area">
+        <button id="show-more-btn" type="button" class="">Show More!</button>
+    </div>
+    
     
 
     
