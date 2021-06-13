@@ -1,46 +1,84 @@
-.popcorn-icon{
+#popcornBtn{
+   
+    background: #9e2a2b;
+    border-width: 0px;
+    background-image: url("https://i.ibb.co/nwJYnK2/bestofficialicon.png");
+    background-size: cover;
     width: 4vw;
+    height: 12vh;
     float:left;
+    
 }
 
 .Title{
     position:relative;
-    margin-left: 40%;
-    margin-bottom: 0vw;
+    margin-left: 41%;
     display: flex;
     align-items: center;
 }
+
 h1 {
     font-size: 4vw;
+    color: #fff3b0;
+}
+
+h2 {
+    color: #fff3b0;
+    margin-left: 3%;
+    padding: 20px;
+}
+.movie-search-form{
+    margin-left: 9%;    
+}
+
+#search-input{
+    
+    width: 25%;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid #540b0e;
+    border-radius: 4px;
+    
+    }
+
+
+#now-playing{
+    margin-top: 50px;
 }
 
 
-img{
-    border-radius: 8px;
-    width: 350px;
-     
-}
 
 body {
     text-align: center;
-    width: 100%;
+    width: 98%;
     height:100%;
+    background-color: #9e2a2b;
+    
 
    
 }
 
 html,img,form {
-    width: 100%;
+    align-items: center;
+    width: 98%;
     height: 100%;
+    border-radius: 10%;
 }
 
 #movie-area{
     display: grid;
     width: 100%;
     grid-template-columns: repeat(4,1fr);
-    grid-column-gap: 25px;
-    row-gap: 20px;
+    grid-column-gap: 20px;
+    row-gap: 10px;
+    margin-left: 2%;
     
+}
+.movieInfo{
+    margin-left: 18%;
+    color: #fff3b0;
 }
 
 

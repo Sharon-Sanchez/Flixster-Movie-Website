@@ -13,10 +13,10 @@ Deployed Application (optional):
 
 - [X] User can view a list of current movies from The Movie Database API as a grid view.
 - [X] For each movie displayed, user can see the following details: `Title`, `Poster Image`, `Votes`.
-- [ ] User can load more current movies by clicking a button at the bottom of the list. The page should not refresh; movies should simply be added to the bottom.
-- [ ] Allow users to search for movies and display them in a grid view. Users should be able to clear results and view previous current movies displayed.
+- [X] User can load more current movies by clicking a button at the bottom of the list. The page should not refresh; movies should simply be added to the bottom.
+- [X] Allow users to search for movies and display them in a grid view. Users should be able to clear results and view previous current movies displayed.
 - [X] Website accounts for basic HTML/CSS accessibility features.
-- [ ] Website should be responsive.
+- [X] Website should be responsive.
 
 #### STRETCH FEATURES
 
@@ -28,14 +28,9 @@ Deployed Application (optional):
 
 ### Walkthrough Video
 
-<<<<<<< HEAD
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `http://g.recordit.co/1RT6gNPN8E.gif`
-`ADD_EMBEDDED_CODE_HERE`
-=======
 
 
 ![](https://media.giphy.com/media/grRx0U1qdjDnwfxRah/giphy.gif)
->>>>>>> cfcec58c4ad22949ab9fd4796b0cf10726aae3bc
 
 ### Reflection
 

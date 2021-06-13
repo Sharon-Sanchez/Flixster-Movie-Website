@@ -7,6 +7,7 @@ const movieSearchInput = document.querySelector("#search-input");
 const showMoreBtn = document.querySelector("#show-more-btn")
 const secondHeader = document.getElementById('now-playing');
 const resultsHeader = document.getElementById('search-results');
+const resetBtn = document.querySelector("#popcornBtn");
 
 
 //Constants for API URL creation
@@ -47,8 +48,8 @@ async function displayMovies(moviePath){
                 <img src="https://image.tmdb.org/t/p/w500${movieArray[index].poster_path} "alt=${movieArray[index].title}/>
             </div>
             <div class="movieInfo">
-                <h3 style="width: 100%; text-align: center; clear: left;">${movieArray[index].title}<h3> 
-                <h3 style="width: 95%; text-align: center; clear: left;">⭐️${movieArray[index].vote_average}<h3>
+                <h3 style="width: 80%; text-align: center; clear: left;">${movieArray[index].title}<h3> 
+                <h3 style="width: 80%; text-align: center; clear: left;">⭐️${movieArray[index].vote_average}<h3>
             </div>
         </div>
         
@@ -59,6 +60,8 @@ async function displayMovies(moviePath){
 }
 
 
+
+
 //Active Functions that are being displayed on the webpage
 
 //Page the user first sees, the now playing in theaters movies
@@ -67,7 +70,7 @@ displayMovies(nowPlayingPath);
 async function movieSearch(event){
     event.preventDefault();
     moviesDisplay.innerHTML = '';
-    secondHeader.classList.add("hidden")
+    secondHeader.classList.add("hidden");
     resultsHeader.classList.remove("hidden");
     showMoreBtn.classList.add('hiddenBtn');
     showMoreResultsBtn.classList.remove('hiddenBtn');
@@ -86,11 +89,24 @@ async function showMore(event) {
 }
 showMoreBtn.addEventListener('click',showMore);   
 
+
 //User clicks the show more results when they are looking for a movie via submit form
 async function showMoreResults(event){
     await displayMovies(searchMoviePath);
     currentPage++;
 }
 showMoreResultsBtn.addEventListener('click',showMoreResults);
+
+async function resetAll(event){
+    event.preventDefault();
+    moviesDisplay.innerHTML = '';
+    currentPage = 1;
+    await displayMovies(nowPlayingPath);
+    secondHeader.classList.remove("hidden");
+    resultsHeader.classList.add("hidden");
+    showMoreBtn.classList.remove('hiddenBtn');
+    showMoreResultsBtn.classList.add('hiddenBtn');
+}
+resetBtn.addEventListener("click",resetAll);
 
 
