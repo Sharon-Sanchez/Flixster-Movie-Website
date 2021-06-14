@@ -37,6 +37,8 @@ The second the is that the website can load more movies when user clicks the sho
 ![](https://media.giphy.com/media/wZ6icKw61q30eHyBNM/giphy.gif)
 
 Finally: the user can search for movies if they wish and it can load up results. By clicking on the popcorn icon, the user is at the first page from the beginning:
+
+
 ![](https://media.giphy.com/media/KC9MZhpMX0XtrYU9Tw/giphy.gif)
 
 
