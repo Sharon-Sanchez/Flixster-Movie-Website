@@ -1,18 +1,19 @@
 #popcornBtn{
    
     background: #9e2a2b;
+    position: relative; 
+    margin:2px;
+    width: 70px;
+    height: 70px;
     border-width: 0px;
     background-image: url("https://i.ibb.co/nwJYnK2/bestofficialicon.png");
     background-size: cover;
-    width: 4vw;
-    height: 12vh;
-    float:left;
-    margin: 4%;
+
 }
 
 .Title{
     position:relative;
-    margin-left: 41%;
+    margin-left: 38%;
     display: flex;
     align-items: center;
 }
@@ -50,7 +51,7 @@ h2 {
 
 
 
-body {
+body{
     text-align: center;
     width: 98%;
     height:100%;
