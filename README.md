@@ -28,23 +28,33 @@ Deployed Application (optional):
 
 ### Walkthrough Video
 
+The first thing is that the website adjusts to the screen size as shown below:
+
+![](https://media.giphy.com/media/r1qDWqjZLlp1cY0udf/giphy.gif)
+
+The second the is that the website can load more movies when user clicks the show more at the bottom:
+
+![](https://media.giphy.com/media/wZ6icKw61q30eHyBNM/giphy.gif)
+
+Finally: the user can search for movies if they wish and it can load up results. By clicking on the popcorn icon, the user is at the first page from the beginning:
+![](https://media.giphy.com/media/KC9MZhpMX0XtrYU9Tw/giphy.gif)
 
 
-![](https://media.giphy.com/media/grRx0U1qdjDnwfxRah/giphy.gif)
+You can also see the animations of the bottons when hovered over and pressed on. 
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-It did help but it was too fast for me to be able to learn quickly unfortunately. I didn't fully know where to go next when it came to doing the assignments. I underestemiated the time it would take to do it and how much I struggled with the material. I struggled most with the submission forms to get the images to pop out. I console logged the data and it did come up on the console just not on the website. I did the search button and when clicking submit, the datas comes up. 
+It did help but it was too fast for me to be able to learn quickly unfortunately. I didn't fully know where to go next when it came to doing the assignments. I underestimated the time it would take to do it and how much I struggled with the material. I struggled most with the submission forms to get the images to pop out. Update: I am doing this to apply the missing features I need and during the time my code was a mess. So, I completely erased my code and started from scratch mainly in the javascript file. The code is cleaner and understandable that I successfully added the features I needed. 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-I would definitely finish the submit buttons to get more images to appear. I would have loved to implement the feature of the posters scrolling sideways when you hover over them to focus on one at a time. I also would have love to expand the library to popular movies for example and not just now playing movies.  I would have added more css aspects in making my website prettier but I prioritized that my code was functional, clean, and readable. I devoted most of my time trying to learn and understand the material. 
+After the update, I would have love to be able to be able to hover over the movies and have the popup occur so the trailers and details can be played. I feel like I could have improved on my alignments and fill in the grid background for each movie but I couldn't solve it. I made a small animation on the buttons where you hover over and click on them. I think what took my time this time was the fact I redid my entire javascript code to make it readable and simple. 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-I think the timing I started the project did not go well. I wanted to learn and practice first to understand so I get dive into the project. But, the practice I did and asking for help allowed me to have a decent website as a start. I hope to improve more and go for it at the beginning of the week so I can have time. I also hope with more help and outside resources I can get better. 
+I think the timing I started the project did not go well. I wanted to learn and practice first to understand so I get dive into the project. But, the practice I did and asking for help allowed me to have a decent website as a start. I hope to improve more and go for it at the beginning of the week so I can have time. I also hope with more help and outside resources I can get better. I will probably add the popups on my own time to have something to show on my portfolio and I genuinely enjoyed it. 
 
 ### Open-source libraries used
 
@@ -53,4 +63,4 @@ https://developers.themoviedb.org/3/movies/get-now-playing
 
 ### Shout out
 
-I want to give a shoutout to both my mentors Matt (Codepath) and Michelle (Workday) because they really lifted my spirits towards the end. I was a bit sad I couldn't have a fully functional website and that I couldn't keep up with my fellow peers. However, I tried my best and spent hours reading and learning the material and I am proud. I want to take this as a learning lesson on time and to just go for it. It is enjoyable and they made me believe that I am capable and I have room to improve. So, I hope to improve in the next projects.  
+I want to give a shoutout to both my mentors Matt (Codepath) and Michelle (Workday) because they really lifted my spirits towards the end. I was a bit sad I couldn't have a fully functional website and that I couldn't keep up with my fellow peers. However, I tried my best and spent hours reading and learning the material and I am proud. I want to take this as a learning lesson on time and to just go for it. It is enjoyable and they made me believe that I am capable and I have room to improve. So, I hope to improve in the next projects. Update: It was very emotional and fulfilling that I was able to solve the features I was missing and it motivates me that I am capable. I hope I can be faster for the next project.   
