@@ -24,7 +24,7 @@ Deployed Application (optional):
 - [ ] Allow user to view more details about a movie within a popup.
 - [ ] Improve the user experience through CSS & animation.
 - [ ] Allow movie video trailers to be played using [embedded YouTube](https://media.giphy.com/media/grRx0U1qdjDnwfxRah/giphy.gif)
-- [ ] Implement anything else that you can get done to improve the app functionality!
+- [X] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
 
